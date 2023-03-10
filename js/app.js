@@ -9,8 +9,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
-}
+    let a = 3;
+    let b = 4;
+    }
+    sum();
+    console.log(sum);
+    alert("The sum of " + a + " and" + b + "is "+ sum);
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
